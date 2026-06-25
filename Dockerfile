@@ -1,5 +1,5 @@
 # FROM node:6-stretch
-FROM node:18.13.0
+FROM node:18.20.8-alpine3.21
 
 USER root
 ENV SNYK_DEMO_API_KEY=hardcoded-for-demo-only
